@@ -1,0 +1,41 @@
+MINI GDD — GAMEJAM PLUS
+=======================
+
+O QUE FAZ
+- Formulário com as 16 perguntas essenciais do Mini GDD original;
+- Seleção do tema Better Together / One More Time / Something's Off;
+- Checklist de entrega e indicador de preenchimento;
+- Salva automaticamente as respostas no navegador (localStorage);
+- Exporta e importa o projeto em .JSON, permitindo continuar depois;
+- Gera PDF usando a opção nativa do navegador (funciona offline).
+
+COMO USAR
+1. Extraia todos os arquivos do ZIP na mesma pasta.
+2. Abra index.html no Chrome, Edge ou outro navegador moderno.
+3. Preencha as quatro etapas. Não é obrigatório responder tudo para exportar.
+4. Clique em GERAR PDF.
+5. Na janela de impressão, escolha "Salvar como PDF" como destino.
+6. Confirme o salvamento. O PDF tem páginas A4 e conteúdo selecionável.
+
+COMO CONTINUAR DEPOIS
+- No mesmo navegador e dispositivo, suas respostas reaparecem ao reabrir a página,
+  enquanto os dados do site/navegador não forem apagados.
+- Para fazer backup, clique em "Salvar JSON" e guarde o arquivo.
+- Para editar em outro dispositivo, abra o site lá e use "Importar projeto JSON".
+
+PUBLICAR NO GITHUB PAGES
+- Envie index.html, style.css e script.js para a raiz de um repositório.
+- Nas configurações do repositório, habilite GitHub Pages.
+- Os arquivos não dependem de servidor, contas ou bibliotecas externas.
+- Os dados do formulário NÃO são enviados a nenhum servidor.
+
+ARQUIVOS
+- index.html : estrutura, perguntas e navegação
+- style.css  : cores, responsividade, visualização e impressão A4
+- script.js  : formulário, salvamento, backup e impressão PDF
+
+IMPORTANTE
+O botão "Gerar PDF" usa a janela de impressão do navegador, que oferece
+"Salvar como PDF". Esta escolha garante que a geração funcione sem internet,
+sem plugins e sem dependências de terceiros. Alguns navegadores podem usar
+termos diferentes para o comando.
